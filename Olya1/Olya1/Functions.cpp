@@ -10,7 +10,7 @@ enum humans {
 	people_4 = 0b1110001110001110,
 	people_5 = 0b1111111111111111
 };
-
+int devnull;
 void questions_(void* form) {
 
 	unsigned action = 0;
@@ -21,7 +21,7 @@ void questions_(void* form) {
 	printf("[3] Get away\n");
 
 
-	scanf("%u", &action);
+	devnull = scanf("%u", &action);
 
 	switch (action)
 	{
@@ -53,7 +53,7 @@ void view_info_(unsigned form) {
 	printf("[5] people 5\n");
 	if (!form) printf("[6] I\n");
 
-	scanf("%u", &info);
+	devnull = scanf("%u", &info);
 	switch (info)
 	{
 	case 1:
@@ -251,7 +251,7 @@ void state_of_family_(unsigned form) {
 	printf("[0] Not married\n");
 	printf("[1] Married\n");
 
-	scanf("%u", &answer);
+	devnull = scanf("%u", &answer);
 	switch (answer)
 	{
 	case 0:
@@ -274,7 +274,7 @@ void gender_(unsigned form) {
 	printf("[0] Female\n");
 	printf("[1] Male\n");
 
-	scanf("%u", &answer);
+	devnull = scanf("%u", &answer);
 	switch (answer)
 	{
 	case 0:
@@ -294,7 +294,7 @@ void age_(unsigned form) {
 	unsigned answer = 0;
 
 	printf("How old are you?\n");
-	scanf("%u", &answer);
+	devnull = scanf("%u", &answer);
 
 	if ((answer > 127) || (answer < 0)) {
 		printf("Incorrect input.\n");
@@ -315,7 +315,7 @@ void education_(unsigned form) {
 	printf("[2] Secondary education\n");
 	printf("[3] Higher education\n");
 
-	scanf("%u", &answer);
+	devnull = scanf("%u", &answer);
 	switch (answer)
 	{
 	case 0:
@@ -345,7 +345,7 @@ void hair_color_(unsigned form) {
 	printf("[2] Brown\n");
 	printf("[3] Blond\n");
 
-	scanf("%u", &answer);
+	devnull = scanf("%u", &answer);
 
 	switch (answer)
 	{
@@ -377,7 +377,7 @@ void color_eyes_(unsigned form) {
 	printf("[2] Brown\n");
 	printf("[3] Black\n");
 
-	scanf("%u", &answer);
+	devnull = scanf("%u", &answer);
 
 	switch (answer)
 	{
@@ -407,7 +407,7 @@ void state_of_life_(unsigned form) {
 	printf("[0] Dead\n");
 	printf("[1] Alive\n");
 
-	scanf("%u", &answer);
+	devnull = scanf("%u", &answer);
 
 	switch (answer)
 	{
