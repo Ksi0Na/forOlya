@@ -153,7 +153,6 @@
   <ItemGroup>
     <ClCompile Include="Functions.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Olya1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h" />

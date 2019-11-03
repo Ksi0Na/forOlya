@@ -1,23 +1,2 @@
 ﻿  Functions.cpp
-  main.cpp
-  Создание кода...
-main.obj : error LNK2005: "void __cdecl age_(unsigned int)" (?age_@@YAXI@Z) уже определен в Functions.obj
-main.obj : error LNK2005: "void __cdecl color_eyes_(unsigned int)" (?color_eyes_@@YAXI@Z) уже определен в Functions.obj
-main.obj : error LNK2005: "void __cdecl decript_age_(unsigned int)" (?decript_age_@@YAXI@Z) уже определен в Functions.obj
-main.obj : error LNK2005: "void __cdecl decript_color_eyes_(unsigned int)" (?decript_color_eyes_@@YAXI@Z) уже определен в Functions.obj
-main.obj : error LNK2005: "void __cdecl decript_education_(unsigned int)" (?decript_education_@@YAXI@Z) уже определен в Functions.obj
-main.obj : error LNK2005: "void __cdecl decript_gender_(unsigned int)" (?decript_gender_@@YAXI@Z) уже определен в Functions.obj
-main.obj : error LNK2005: "void __cdecl decript_hair_color_(unsigned int)" (?decript_hair_color_@@YAXI@Z) уже определен в Functions.obj
-main.obj : error LNK2005: "void __cdecl decript_state_of_family_(unsigned int)" (?decript_state_of_family_@@YAXI@Z) уже определен в Functions.obj
-main.obj : error LNK2005: "void __cdecl decript_state_of_life_(unsigned int)" (?decript_state_of_life_@@YAXI@Z) уже определен в Functions.obj
-main.obj : error LNK2005: "void __cdecl decripter_(unsigned int)" (?decripter_@@YAXI@Z) уже определен в Functions.obj
-main.obj : error LNK2005: "void __cdecl education_(unsigned int)" (?education_@@YAXI@Z) уже определен в Functions.obj
-main.obj : error LNK2005: "void __cdecl gender_(unsigned int)" (?gender_@@YAXI@Z) уже определен в Functions.obj
-main.obj : error LNK2005: "void __cdecl hair_color_(unsigned int)" (?hair_color_@@YAXI@Z) уже определен в Functions.obj
-main.obj : error LNK2005: "void __cdecl leave_info_(unsigned int)" (?leave_info_@@YAXI@Z) уже определен в Functions.obj
-main.obj : error LNK2005: "void __cdecl questions_(void *)" (?questions_@@YAXPAX@Z) уже определен в Functions.obj
-main.obj : error LNK2005: "void __cdecl state_of_family_(unsigned int)" (?state_of_family_@@YAXI@Z) уже определен в Functions.obj
-main.obj : error LNK2005: "void __cdecl state_of_life_(unsigned int)" (?state_of_life_@@YAXI@Z) уже определен в Functions.obj
-main.obj : error LNK2005: "void __cdecl view_info_(unsigned int)" (?view_info_@@YAXI@Z) уже определен в Functions.obj
-Olya1.obj : error LNK2005: _main уже определен в main.obj
-C:\Users\User\Desktop\SandBox\Xiona\Olya1\Debug\Olya1.exe : fatal error LNK1169: обнаружен многократно определенный символ - один или более
+  Olya1.vcxproj -> C:\Users\User\Desktop\SandBox\Xiona\Olya1\Debug\Olya1.exe
